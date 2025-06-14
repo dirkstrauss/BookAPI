@@ -23,7 +23,7 @@ namespace BookAPI
 
             var summaries = new[]
             {
-                "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+                "Icy", "Cold", "Cool", "Mild", "Warm", "Balmy", "Hot", "Scorching"
             };
 
             app.MapGet("/weatherforecast", (HttpContext httpContext) =>
